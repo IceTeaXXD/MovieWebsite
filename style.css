@@ -1,0 +1,79 @@
+:root{
+    --color1:#f3ce13;
+    --color2: black;
+    --color3:white;
+
+}
+body {
+    color : var(--color3);
+    background-color :var(--color2);
+    font-family : gotham;
+    text-align : center;
+}
+
+ul{
+    display :table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h3{
+    color : var(--color1);
+    font-size : 25px;
+}
+
+img {
+    height : 300px;
+}
+
+.purpose{
+    text-align: center;
+}
+
+a{
+    font-size: 25px;
+}
+
+.tombol {
+    padding: 20px;
+    height:200px;
+}
+
+.inputmovie{
+    width:300px;
+    height:30px;
+    border : 2px solid var(--color2);
+    padding : 0.5rem 1rem;
+    border-radius : 50px;
+    font-size : 25px;
+    font-family: gotham;
+}
+
+.inputmovie:focus{
+    background-color : var(--color1)
+}
+
+.masuk{
+    width: 150px;
+    height:60px;
+    border-radius : 50px;
+    font-size: 25px;
+    font-family: gotham;
+}
+
+/* body {
+    color : white;
+    background-color : black;
+    background-image: url("cinema.jpg");
+    background-repeat : no-repeat;
+    background-size: 1920px;
+    font-family : gotham;
+    text-align : center;
+    width: 300px;
+    border: 15px solid green;
+    padding-left: 200px;
+    padding-right : 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+} */
