@@ -2,7 +2,6 @@
     --color1:#f3ce13;
     --color2: black;
     --color3:white;
-
 }
 body {
     color : var(--color3);
@@ -60,20 +59,32 @@ a{
     font-size: 25px;
     font-family: gotham;
 }
+.movie{
+    color : var(--color1);
+    text-align: left;
+    border : 2px solid var(--color2);
+}
+.rating {
+    color : lightblue;
+    text-align: left;
+    border : 2px solid var(--color2);
+}
 
-/* body {
-    color : white;
-    background-color : black;
-    background-image: url("cinema.jpg");
-    background-repeat : no-repeat;
-    background-size: 1920px;
-    font-family : gotham;
-    text-align : center;
-    width: 300px;
-    border: 15px solid green;
-    padding-left: 200px;
-    padding-right : 200px;
-    margin-left: auto;
-    margin-right: auto;
+.deskripsi {
+    color : var(--color3);
+    text-align: left;
+    border : 2px solid var(--color2);
+}
 
-} */
+.poster{
+    padding: 50px;
+    text-align :left;
+    width : 300px;
+    height: 480px;
+    border : 2px solid var(--color2);
+}
+
+.production-logo{
+    text-align :center;
+    padding : 100px;
+}
