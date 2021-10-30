@@ -63,6 +63,7 @@ a{
     color : var(--color1);
     text-align: left;
     border : 2px solid var(--color2);
+    padding-top: 150px;
 }
 .rating {
     color : lightblue;
@@ -74,6 +75,7 @@ a{
     color : var(--color3);
     text-align: left;
     border : 2px solid var(--color2);
+    padding-bottom: 100px;
 }
 
 .poster{
